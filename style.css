@@ -1,0 +1,74 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  padding: 0px;
+}
+
+.c-site-header {
+  background: #007;
+  color: white;
+  padding: 3px 5px 1px 8px;
+  margin: -8px 0px 2px 0px;
+}
+
+.c-site-footer {
+  background: #C00;
+  color: white;
+  padding: 3px;
+}
+
+h1 {font-size: 18pt;}
+
+main > h2 {
+  font-size: 16pt;
+  color: #009;
+  padding: 3px;
+}
+
+main > p {padding: 3px;}
+
+footer {font-size: 12px;}
+
+figure {
+  padding: 3px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: -2px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #08F;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #007;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
